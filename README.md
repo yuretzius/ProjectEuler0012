@@ -11,13 +11,13 @@ The first ten terms would be:
 $$1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \dots$$
 Let us list the factors of the first seven triangle numbers:
 
-**1** : 1<br/>
-**3** : 1,3<br/>
-**6** : 1,2,3,6<br/>
-**10** : 1,2,5,10<br/>
-**15** : 1,3,5,15<br/>
-**21** : 1,3,7,21<br/>
-**28** : 1,2,4,7,14,28<br/>
+**1** : 1<br>
+**3** : 1,3<br>
+**6** : 1,2,3,6<br>
+**10** : 1,2,5,10<br>
+**15** : 1,3,5,15<br>
+**21** : 1,3,7,21<br>
+**28** : 1,2,4,7,14,28<br>
 
 We can see that $28$ is the first triangle number to have over five divisors.
 What is the value of the first triangle number to have over five hundred divisors?
