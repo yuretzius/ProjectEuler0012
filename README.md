@@ -10,15 +10,15 @@ So the $7$<sup>th</sup> triangle number would be $1 + 2 + 3 + 4 + 5 + 6 + 7 = 28
 The first ten terms would be:
 $$1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \dots$$
 Let us list the factors of the first seven triangle numbers:
-$$\begin{align}
-\mathbf 1 &amp;\colon 1\\
-\mathbf 3 &amp;\colon 1,3\\
-\mathbf 6 &amp;\colon 1,2,3,6\\
-\mathbf{10} &amp;\colon 1,2,5,10\\
-\mathbf{15} &amp;\colon 1,3,5,15\\
-\mathbf{21} &amp;\colon 1,3,7,21\\
-\mathbf{28} &amp;\colon 1,2,4,7,14,28
-\end{align}$$
+
+**1** : 1<br/>
+**3** : 1,3<br/>
+**6** : 1,2,3,6<br/>
+**10** : 1,2,5,10<br/>
+**15** : 1,3,5,15<br/>
+**21** : 1,3,7,21<br/>
+**28** : 1,2,4,7,14,28<br/>
+
 We can see that $28$ is the first triangle number to have over five divisors.
 What is the value of the first triangle number to have over five hundred divisors?
 
