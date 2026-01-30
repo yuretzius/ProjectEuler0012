@@ -36,7 +36,7 @@ And $n$ and $n+1$ are always coprime (easy to understand why thinking of the sie
 
 $$n = p_1^{m_1} \times p_2^{m_2} \times \ldots \times p_s^{m_s}$$,
 
-$$ d(n) = (m_1 + 1)(m_2+1)\ldots(m_s+1)$$.
+$$d(n) = (m_1 + 1)(m_2+1) \ldots (m_s+1)$$.
 
 As a consequence, the number of divisors of the product of two coprimes is just the product
 of their respective number of divisors. In case of a triangular number, depending if $n$ is
