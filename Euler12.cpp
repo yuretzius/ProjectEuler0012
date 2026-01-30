@@ -34,7 +34,7 @@ vector<unsigned long> Erat(unsigned long N){
     return primes;
 }
 
-vector<unsigned long> IncompletePrimeFactor(unsigned long N, vector<unsigned long> primes0) 
+vector<unsigned long> IncompletePrimeFactorPndiv(unsigned long N, vector<unsigned long> primes0) 
 // this one with externally supplied primes, need them to be at least up to sqrt(N)
 {
     vector<unsigned long>::iterator itr, idx;
@@ -52,7 +52,7 @@ unsigned long FactorMultiplicityExtPndiv(unsigned long N, vector<unsigned long> 
 // this one with externally supplied primes and only counting divisors
 {
     if (N == 1) return 1; // corner case
-    vector<unsigned long> factors = IncompletePrimeFactor(N, primes0);
+    vector<unsigned long> factors = IncompletePrimeFactorPndiv(N, primes0);
     // vector<pair <unsigned long,int>> mfactors;
     // only counting divisors here, turn off all the factor/multiplicity collection 
     unsigned long ndiv = 1;
