@@ -1,7 +1,7 @@
 # ProjectEuler0012
 My work on 
 
-problem #12 of projecteuler.net:
+[problem #12 of projecteuler.net](https://projecteuler.net/problem=12):
 
 Highly Divisible Triangular Number
 
