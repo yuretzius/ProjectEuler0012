@@ -44,7 +44,7 @@ or $n$ and $(n+1)/2$, and then multiply them.
 This simplifies the matter enormously. For example, for a triangual number $500,000,500,000 \simeq 5\cdot 10^{11}$
 we only need to factorize $500,000$ and $1,000,001$, and for each of those primes are needed only up to $\sqrt{n} \simeq 1000$.
 
-I have already developed all the necessary factorization machinery in previous problems (5, 7, 9, 10), so with a few minimal
+I have already developed all the necessary factorization machinery in previous problems ([5](https://github.com/yuretzius/ProjectEuler0005), [7](https://github.com/yuretzius/ProjectEuler0007), [9](https://github.com/yuretzius/ProjectEuler0009), [10](https://github.com/yuretzius/ProjectEuler0010)), so with a few minimal
 tweaks it can be used to count the divisors. Then just by cycling through integers we find the solution with minimum conputations,
 with $n$ only slightly higher than $10000$, but $T$ of order $100,000,000$. Checking it directly would have required much more
 computational effort. 
